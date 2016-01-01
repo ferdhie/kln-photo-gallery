@@ -45,16 +45,14 @@
     </c:if>
 
     <form method="post" enctype="multipart/form-data" action="<c:url value="/upload"/>">
-    <fieldset>
-        <legend>Upload foto anda</legend>
-        <label for="upload_file">Upload file</label>
-        <input type="file" id="upload_file" name="file" accept="image/*"/>
-        <button type="submit">Upload</button>
-    </fieldset>
+        <fieldset>
+            <legend>Upload Foto</legend>
+            <input type="file" id="upload_file" name="file" accept="image/*"/>
+            <button type="submit">Upload</button>
+        </fieldset>
 
-    <%-- spring need this for CSRF checks --%>
-    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-
+        <%-- spring need this for CSRF checks --%>
+        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     </form>
 </div>
 
