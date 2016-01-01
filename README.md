@@ -83,4 +83,5 @@ To compile and run this application you will need these application installed on
 
 * All of the above download could take some time, while you wait, you can use the spare time to
   getting to know more about Java, JSP and Spring boot by googling for them.
+  Live demo of the application is [here](http://203.12.20.70/).
 
