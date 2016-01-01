@@ -79,6 +79,7 @@ To compile and run this application you will need these application installed on
   ```
   C:\Users\user\Documents\photogallery>mvn spring-boot:run`
   ```
+  and then visit http://localhost:8080/ from your browser
 
 * All of the above download could take some time, while you wait, you can use the spare time to
   getting to know more about Java, JSP and Spring boot by googling for them.
